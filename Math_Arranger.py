@@ -42,6 +42,13 @@ def arithmetic_arranger(x,v=False):
     return arranged_problems
 
 print(arithmetic_arranger(["3 + 855", "3801 - 2", "45 + 43", "123 + 49"],True))
+
+"""
+    3      3801      45      123
++ 855    -    2    + 43    +  49
+-----    ------    ----    -----
+  858      3799      88      172
+"""
             
 
             
